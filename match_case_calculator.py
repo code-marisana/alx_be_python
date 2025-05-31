@@ -13,5 +13,5 @@ match operation:
         if num2 != 0:
             print(f"The result is {num1 / num2}")
         else:
-            print(f"Cannot divide by zero")    
+            print("Cannot divide by zero")    
 
