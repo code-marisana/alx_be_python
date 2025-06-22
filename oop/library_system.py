@@ -30,4 +30,5 @@ class Library:
             elif isinstance(book, PrintBook):
                 print(f"PrintBook: {book.title} by {book.author}, Page Count: {book.page_count}")
             else:
-                print(str(book))
+                print(f"Book: {book.title} by {book.author}")
+
